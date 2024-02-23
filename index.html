@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google!</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif !important;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+      }
+      #google-img {
+        margin-top: 10px;
+      }
+      .search-part {
+        background-color: #eeeeee;
+        padding: 5px;
+        margin: 2px;
+      }
+      .search-button {
+        text-transform: none;
+        border: 1px solid grey !important;
+        border-radius: 3px;
+        margin-left: 3px;
+        height: 25px;
+      }
+      .block {
+        display: block;
+      }
+      .first-box {
+        background-color: #7ee5da;
+        margin-right: 2px;
+      }
+      .second-box {
+        background-color: #70ccc2;
+        margin-right: 2px;
+      }
+      .third-box {
+        background-color: #62b3aa;
+      }
+      .paragraph {
+        margin: 0px;
+      }
+
+      .align-center {
+        text-align: center;
+      }
+      .font-big {
+        font-size: 16px;
+      }
+      .font-small {
+        font-size: 13px;
+      }
+    </style>
+    <!-- Bootstrap Link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Logo Image - Starts-->
+    <header>
+      <div class="container center">
+        <img src="/img/google.jpg" id="google-img" alt="Google Logo " />
+      </div>
+    </header>
+    <!-- Logo Image - Ends-->
+    <!-- Search Section - Starts -->
+    <section>
+      <div class="container search-part">
+        <div class="center">
+          <p class="paragraph font-big">Search the web using Google!</p>
+        </div>
+        <div class="center">
+          <input type="text" size="40" style="height: 21px" />
+        </div>
+        <div class="center">
+          <button class="search-button">Google Search</button>
+          <button class="search-button">I'm feeling lucky</button>
+        </div>
+      </div>
+    </section>
+    <!-- Search Section - Ends -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 first-box align-center font-big">
+            <p class="paragraph">Special Searches</p>
+            <a class="block" href="#">Stanford Search</a>
+            <a class="" href="#">Linux Search</a>
+          </div>
+          <div class="col-3 second-box align-center font-small">
+            <div>
+              <a href="#">Help</a>
+              <a class="block" href="#">About Google!</a>
+              <a href="#" class="block">Company Info</a>
+
+              <a href="#">Google! Logos</a>
+            </div>
+          </div>
+          <div class="col-4 third-box align-center font-small">
+            <div>
+              <p class="paragraph">Get Google!</p>
+              <p class="paragraph">updates monthly:</p>
+              <input type="text " placeholder="your e-mail" />
+              <br />
+              <button>Subscribe</button>
+              <a href="#">Archive</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section - Starts  -->
+    <footer>
+      <div class="center font-small">
+        <p>Copyright ©1998 Google Inc.</p>
+      </div>
+    </footer>
+    <!-- Footer Section - Ends  -->
+  </body>
+</html>
